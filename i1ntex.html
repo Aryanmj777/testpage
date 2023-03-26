@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Burger Template</title>
+<style>
+
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:100%;
+	height:2000px;
+	background:#04073b;
+}
+
+.navbar{
+	width:1196px;
+	height:159px;	
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+.navlinks{
+	width:900px;
+	height:101px;	
+	float:left;
+	display:flex;
+	align-items:center;
+	justify-content:end;
+}
+.navlinks ul{
+	text-align:right;
+}
+.navlinks ul li{
+	list-style-type:none;
+	display:inline;
+	margin:0 0 0 23px;
+}
+.navlinks ul li a{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:25px;
+	font-weight:Bold;
+	color:#fff;
+	text-decoration:none;
+	text-transform:;
+	transition:all 0.5s;
+}
+.navlinks ul li a:hover{
+	color:#674aa9;
+}
+
+
+.nav{
+	width:1196px;
+	height:731px;
+	margin:auto;
+	display:flex;
+	padding:10px 0;
+}
+
+.headercontent{
+	width:400px;
+	height:auto;	
+	margin:auto;
+}
+.headercontent h1{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:35px;
+	color:#fff;
+}
+.headercontent h2{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	margin:25px 0 70px 0;
+}
+.headercontent button{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	color:#fff;
+	text-transform:uppercase;
+	padding:24px 75px;
+	background:#6d5ed3;
+	border:none;
+	border-radius:40px;
+	cursor:pointer;
+	transition:all 0.5s;
+	margin:25px 0 150px 0;
+}
+.headercontent button:hover{	
+	background:#fff;
+	color:#6d5ed3;
+}
+
+.headerimg{	
+	width:754px;
+	height:705px;	
+	float:left;
+	display:flex;
+	align-items:center;
+	justify-content:end;
+}
+
+.mainarea{
+	width:1196px;
+	height:180px;
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+
+.mainarea1{
+	width:683px;
+	height:auto;	
+	margin:auto;
+	align-items:center;
+	
+}
+.mainarea1 h3{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:40px;
+	color:#fff;
+	text-align:center;
+	padding:0 0 18px 0;
+	
+	
+
+}
+
+.mainarea1 p{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	
+}
+
+.bodyshap{
+	width:1196px;
+	height:421px;
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+
+.bodyshap1{
+	width:990px;
+	height:234px;
+	margin:auto;
+	background:#04073b;
+	display:flex;
+	align-items:center;
+}
+
+.box1{
+	width:240px;
+	height:231px;
+	margin:auto;
+	float:left;
+	background:#14164d;
+}
+
+.box1 h5{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:15px;
+	color:#fff;
+	font-weight:Bold;
+	padding:28px 0 0 13px;
+
+}
+
+.box1 p{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:Bold;
+	padding:13px 0 0 13px;
+
+}
+
+
+
+
+.box2{
+	width:240px;
+	height:231px;
+	margin:auto;
+	float:left;
+	background:#14164d;
+	
+}
+
+.box2 h6{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:15px;
+	color:#fff;
+	font-weight:Bold;
+	padding:25px 0 0 13px;
+
+}
+
+.box2 p{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:Bold;
+	padding:13px 0 0 13px;
+
+}
+
+
+.box3{
+	width:240px;
+	height:231px;
+	margin:auto;
+	float:left;
+	background:#14164d;
+	
+}
+
+
+.box3 nav{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:15px;
+	color:#fff;
+	font-weight:Bold;
+	padding:24px 0 0 13px;
+
+}
+
+.box3 p{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:Bold;
+	padding:13px 0 0 13px;
+
+}
+
+
+.box4{
+	width:240px;
+	height:231px;
+	margin:auto;
+	float:left;
+	background:#14164d;
+	
+}
+
+
+.box4 Section{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:15px;
+	color:#fff;
+	font-weight:Bold;
+	padding:23px 0 0 13px;
+
+}
+
+.box4 p{
+	font-family: 'Avenir Next', sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:Bold;
+	padding:13px 0 0 13px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="navbar">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
+				</div>
+<div class="navlinks">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><img src="images/search.png" alt=""></li>
+					</ul>
+
+				</div>
+				</div>
+
+<div class="nav">
+<div class="headercontent">
+				<h1>We explore your ability<br> and employement<br>solution</h1>
+				<h2>Highly tailored it design,  management & support services.<br>Siding elit,sed do eiumod tempor.</h2>
+				<button>Book Now</button></div>
+				<div class="headerimg">
+				<img src="images/main img.png" alt="">
+			</div>
+			</div>
+				<div>
+				<div class="mainarea">
+				<div class="mainarea1"> <h3> WHY CHOOSE US </h3> 
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				</div>
+					<div class="bodyshap">
+						<div class="bodyshap1">
+								<div class="box1"><h5><img src="images/box1 img.png" alt=""><br>Professional<br>& Certified Company</h5><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed </p> </div>
+								<div class="box2"><h6><img src="images/box2 img.png" alt=""><br>Business & Product<br>Concept too</h6><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed </p></div>
+								<div class="box3"><nav><img src="images/box3 img.png" alt=""><br>International Good<br> Relationship</nav><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed </p> </div>
+								<div class="box4"><section><img src="images/box4 img.png" alt=""><br>Pixel & Perfect<br>Design</section><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed </p></div>
+									
+							</div>
+						
+					</div>
+
+
+
+
+</div>
+</body>
+</html>
